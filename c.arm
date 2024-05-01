@@ -1,0 +1,5 @@
+:
+# compile 64-bit arm version (aarch64)
+# first install the compiler:
+# sudo apt install gcc gcc-arm-linux-gnueabi binutils-arm-linux-gnueabi
+arm-linux-gnueabi-gcc -I. *.c -o mosquitto_simplepub -pthread -static
